@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "base": {
+    "item": "lightsabers:raw_kyber_crystal"
+  },
+  "result": {
+    "item": "lightsabers:blue_kyber_crystal"
+  },
+  "template": []
+}

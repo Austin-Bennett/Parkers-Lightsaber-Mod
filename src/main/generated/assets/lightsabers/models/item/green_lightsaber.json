@@ -1,0 +1,6 @@
+{
+  "parent": "lightsabers:item/lightsaber_base",
+  "textures": {
+    "0": "lightsabers:item/green_lightsaber"
+  }
+}

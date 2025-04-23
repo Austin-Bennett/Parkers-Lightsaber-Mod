@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:gold_ingot"
+  },
+  "base": {
+    "item": "lightsabers:raw_kyber_crystal"
+  },
+  "result": {
+    "item": "lightsabers:yellow_kyber_crystal"
+  },
+  "template": []
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:emerald"
+  },
+  "base": {
+    "item": "lightsabers:raw_kyber_crystal"
+  },
+  "result": {
+    "item": "lightsabers:green_kyber_crystal"
+  },
+  "template": []
+}

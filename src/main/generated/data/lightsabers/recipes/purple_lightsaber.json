@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:beacon"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "K": {
+      "item": "lightsabers:purple_kyber_crystal"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " KR",
+    "IBI",
+    " I "
+  ],
+  "result": {
+    "item": "lightsabers:purple_lightsaber"
+  },
+  "show_notification": true
+}
