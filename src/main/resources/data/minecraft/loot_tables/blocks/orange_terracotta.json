@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": ["lightsabers:red_lightsaber",
+                      "lightsabers:blue_lightsaber",
+                      "lightsabers:green_lightsaber",
+                      "lightsabers:purple_lightsaber",
+                      "lightsabers:yellow_lightsaber"]
+                  }
+                }
+              ],
+              "name": "minecraft:orange_glazed_terracotta"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:orange_terracotta",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/orange_terracotta"
+}

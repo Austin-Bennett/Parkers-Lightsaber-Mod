@@ -1,0 +1,17 @@
+{
+  "lightsaber_swing": {
+    "subtitle": "sounds.lightsabers.lightsaber_swing",
+    "sounds": [
+      "lightsabers:swing1",
+      "lightsabers:swing2"
+    ]
+  },
+  "lightsaber_hit": {
+    "subtitle": "sounds.lightsabers.lightsaber_hit",
+    "sounds": [
+      "lightsabers:hit1",
+      "lightsabers:hit2",
+      "lightsabers:hit3"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "itemgroup.lightsabers": "Lightsabers",
+
+  "item.lightsabers.kyber_shard": "Kyber Shard",
+
+  "item.lightsabers.raw_kyber_crystal": "Raw Kyber Crystal",
+  "item.lightsabers.red_kyber_crystal": "Red Kyber Crystal",
+  "item.lightsabers.blue_kyber_crystal": "Blue Kyber Crystal",
+  "item.lightsabers.green_kyber_crystal": "Green Kyber Crystal",
+  "item.lightsabers.purple_kyber_crystal": "Purple Kyber Crystal",
+  "item.lightsabers.yellow_kyber_crystal": "Yellow Kyber Crystal",
+
+  "item.lightsabers.red_lightsaber": "Red Lightsaber",
+  "item.lightsabers.green_lightsaber": "Green Lightsaber",
+  "item.lightsabers.yellow_lightsaber": "Yellow Lightsaber",
+  "item.lightsabers.purple_lightsaber": "Purple Lightsaber",
+  "item.lightsabers.blue_lightsaber": "Blue Lightsaber",
+
+  "sounds.lightsabers.lightsaber_swing": "Lightsaber Swung",
+  "sounds.lightsabers.lightsaber_hit": "Lightsaber Hit Something",
+
+  "enchantment.lightsabers.force_enchant": "Force"
+}

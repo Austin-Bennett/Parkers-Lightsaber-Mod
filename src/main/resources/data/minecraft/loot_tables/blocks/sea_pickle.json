@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": ["lightsabers:red_lightsaber",
+                      "lightsabers:blue_lightsaber",
+                      "lightsabers:green_lightsaber",
+                      "lightsabers:purple_lightsaber",
+                      "lightsabers:yellow_lightsaber"]
+                  }
+                }
+              ],
+              "name": "minecraft:lime_dye"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "minecraft:sea_pickle",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "pickles": "2"
+                      }
+                    }
+                  ],
+                  "count": 2.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "minecraft:sea_pickle",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "pickles": "3"
+                      }
+                    }
+                  ],
+                  "count": 3.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "add": false,
+                  "conditions": [
+                    {
+                      "block": "minecraft:sea_pickle",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "pickles": "4"
+                      }
+                    }
+                  ],
+                  "count": 4.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "minecraft:sea_pickle"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/sea_pickle"
+}

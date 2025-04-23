@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "children": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "lightsabers:red_lightsaber",
+                      "lightsabers:blue_lightsaber",
+                      "lightsabers:green_lightsaber",
+                      "lightsabers:purple_lightsaber",
+                      "lightsabers:yellow_lightsaber"
+                    ]
+                  }
+                }
+              ],
+              "name": "minecraft:charcoal",
+              "type": "minecraft:item"
+            },
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "minecraft:stripped_mangrove_wood",
+              "type": "minecraft:item"
+            }
+          ],
+          "type": "minecraft:alternatives"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/stripped_mangrove_wood",
+  "type": "minecraft:block"
+}
